@@ -1,1 +1,1 @@
-# SeparableTran
+This package implements the methods proposed in the paper "An Unsupervised Adaptive Approach for Causal Inference in Competing Risks Data Using Separable Effects". It provides a semiparametric maximum likelihood estimator (SPMLE) under a full-likelihood and separable effects framework, and includes an unsupervised, AIC-based model selection procedure for semiparametric transformation models—specifically, generalized logarithmic and Box-Cox transformations—under competing risks settings.

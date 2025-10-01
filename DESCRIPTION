@@ -2,20 +2,21 @@ Package: SeparableTran
 Type: Package
 Title: An Unsupervised Adaptive Approach for Causal Inference in Competing Risks Data Using Separable Effects
 Version: 0.1.0
-Authors@R: 
+Authors@R:
     c(
         person(given = "Po-Chun", family = "Liao", role = "aut"),
         person(given = "Jih-Chang", family = "Yu", role = c("aut", "cre"), email = "jcyu@mail.ntpu.edu.tw")
     )
-Description: This package implements the proposed methods from the paper 
-    "An Unsupervised Adaptive Approach for Causal Inference in Competing Risks Data Using Separable Effects". 
-    It provides a semiparametric maximum likelihood estimator (SPMLE) under a full-likelihood and separable effects framework, 
-    and includes unsupervised AIC-biased model selection for semiparametric transformation models with competing risks data.
+Description: Implements methods from the paper on separable effects for competing risks.
+    Provides a semiparametric maximum likelihood estimator (SPMLE) under a full-likelihood
+    and separable-effects framework, and includes unsupervised AIC-based model selection
+    for semiparametric transformation models with competing risks data.
 Depends: R (>= 4.0)
-Imports: 
+Imports:
     survival,
     splines
 License: GPL-3
 Encoding: UTF-8
-LazyData: true
 RoxygenNote: 7.3.2
+URL: https://github.com/yujihchang/SeparableTran
+BugReports: https://github.com/yujihchang/SeparableTran/issues

@@ -1,4 +1,4 @@
-Package: SEPCOMP
+Package: SeparableTran
 Type: Package
 Title: An Unsupervised Adaptive Approach for Causal Inference in Competing Risks Data Using Separable Effects
 Version: 0.1.0
